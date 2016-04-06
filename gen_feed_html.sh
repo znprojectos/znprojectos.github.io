@@ -20,8 +20,8 @@ function do_file
 {
 	feeddate="aaa"
 	feeddate=$(xmllint --xpath '//rss/channel/lastBuildDate/text()' $1)
-	echo "valor do feeddate " ${feeddate}
-	echo "date transformada " $(date --date="${feeddate}" "+%d/%m/%Y-%R")
+	#echo "valor do feeddate " ${feeddate}
+	#echo "date transformada " $(date --date="${feeddate}" "+%d/%m/%Y-%R")
 	echo	"<div class=\"panel panel-primary\">
 		 <div class=\"panel-heading\"><h3 class=\"panel-title\">" `xmllint --xpath '//rss/channel/title/text()' $1` " "
 	if [ "${feeddate}" != "aaa" ]

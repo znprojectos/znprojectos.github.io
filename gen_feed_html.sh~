@@ -24,7 +24,7 @@ function do_file
 	echo "date transformada " $(date --date="${feeddate}" "+%d/%m/%Y-%R")
 	echo	"<div class=\"panel panel-primary\">
 		 <div class=\"panel-heading\"><h3 class=\"panel-title\">" `xmllint --xpath '//rss/channel/title/text()' $1` " "
-	if [ $feeddate != "aaa" ]
+	if [ "${feeddate}" != "aaa" ]
 	then
 		echo $(date --date="${feeddate}" "+%d/%m/%Y-%R");
 	fi;
