@@ -11,7 +11,7 @@ function do_header
 			<link rel=\"stylesheet\" href=\"bootstrap.min.css\">
 			</head>
 			<body>
-			`date`
+			`date +%d/%m/%Y-%R`
 			<div class=\"container\">
 			<div class=\"row\">";
 }
@@ -19,10 +19,10 @@ function do_header
 function do_file
 {
 	echo	"<div class=\"panel panel-primary\">
-		 <div class=\"panel-heading\"><h3 class=\"panel-title\">" `xmllint --xpath '//rss/channel/title/text()' $1`
+		 <div class=\"panel-heading\"><h3 class=\"panel-title\">" `xmllint --xpath '//rss/channel/title/text()' $1` " " `xmllint --xpath '//rss/channel/lastBuildDate/text()' $1`
 	echo "</h3></div><div class=\"panel-body\"><ul>"
 
-	echo "<li>" `xmllint --xpath '//rss/channel/lastBuildDate/text()' $1` "</li>" 
+	#echo "<li>" `xmllint --xpath '//rss/channel/lastBuildDate/text()' $1` "</li>" 
 
 	echo "<li><a href=\"" `xmllint --xpath '//rss/channel/item[1]/link/text()' $1` "\">" `xmllint --xpath '//rss/channel/item[1]/title/text()' $1` "</a></li>"
 	echo "<li><a href=\"" `xmllint --xpath '//rss/channel/item[2]/link/text()' $1` "\">" `xmllint --xpath '//rss/channel/item[2]/title/text()' $1` "</a></li>"
