@@ -13,4 +13,7 @@ echo "Cleaned up folders"
 
 echo "now push the html file"
 
+echo "git add *"
+echo "git commit -m \"" `date` "\""
+echo "git push -u origin master"
 
