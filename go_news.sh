@@ -1,5 +1,10 @@
 #/bin/bash
 
+# This command does everything:
+#  - Fetches feeds
+#  - Parses them
+#  - Generates HTML
+
 echo "Doing everything"
 
 rm lixo/*
