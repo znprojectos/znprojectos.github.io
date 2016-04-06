@@ -18,7 +18,7 @@ function do_header
 
 function do_file
 {
-	feed_date=`xmllint --xpath '//rss/channel/lastBuildDate/text()' $1`
+	feed_date="$(xmllint --xpath '//rss/channel/lastBuildDate/text()' $1)"
 	echo	"<div class=\"panel panel-primary\">
 		 <div class=\"panel-heading\"><h3 class=\"panel-title\">" `xmllint --xpath '//rss/channel/title/text()' $1` " " `date --date=\"$(feed_date)\" \"+%d/%m/%Y-%R\"`
 	echo "</h3></div><div class=\"panel-body\"><ul>"
