@@ -11,8 +11,8 @@ function do_header
 			<link rel=\"stylesheet\" href=\"bootstrap.min.css\">
 			</head>
 			<body>
-			`date`
 			<div class=\"container\">
+			`date`
 			<div class=\"row\">";
 }
 
