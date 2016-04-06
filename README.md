@@ -1,1 +1,4 @@
-znprojectos.github.io
+newsthing
+
+isto usa:
+ - xmllint
