@@ -1,4 +1,4 @@
-#/bin/dash
+#/bin/bash
 
 
 function do_header

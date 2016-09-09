@@ -1,4 +1,4 @@
-#/bin/dash
+#/bin/bash
 
 # This command does everything:
 #  - Fetches feeds

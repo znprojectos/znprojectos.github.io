@@ -1,4 +1,4 @@
-#/bin/dash
+#/bin/bash
 
 # Does everything AND commits page
 #
