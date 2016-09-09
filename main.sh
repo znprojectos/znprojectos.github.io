@@ -8,6 +8,8 @@
 # git push https://github.com/znprojectos/znprojectos.github.io.git
 # git config --global credential.helper 'cache --timeout 777200'
 
+cd /home/pi/newsthing/znprojectos.github.io
+
 ./go_news.sh
 git add *
 git commit -m "`date`"
