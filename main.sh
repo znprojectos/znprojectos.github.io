@@ -10,7 +10,7 @@
 
 cd /home/pi/newsthing/znprojectos.github.io
 
-go_news.sh
+./go_news.sh
 
 git add *
 git commit -m "`date`"
