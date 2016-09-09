@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/dash
 
 # This command does everything:
 #  - Fetches feeds
@@ -11,12 +11,12 @@ rm lixo/*
 rm feed/*
 
 echo "getting feeds"
-./get_feeds.sh
+get_feeds.sh
 
 echo "generating html"
-./gen_feed_html.sh > index.html
+gen_feed_html.sh > index.html
 
 echo "cleaning up stuff"
-./cleanup_news.sh
+cleanup_news.sh
 
 

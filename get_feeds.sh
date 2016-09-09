@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/dash
 
 echo "Getting feeds"
 
