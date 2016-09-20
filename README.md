@@ -5,7 +5,7 @@ isto usa:
 
 
 TODO
-Alterar lista de feeds
-Flexibilizar montagem de feeds
-Adicionar categorias
+* Alterar lista de feeds
+* Flexibilizar montagem de feeds
+* Adicionar categorias
 
