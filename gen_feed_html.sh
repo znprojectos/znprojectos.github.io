@@ -7,6 +7,13 @@ function do_header
 			<html>
 			<head>
 			<meta charset=\"UTF-8\">
+			<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>
+			<script>
+			  (adsbygoogle = window.adsbygoogle || []).push({
+			   google_ad_client: \"ca-pub-2493183504773922\",
+			    enable_page_level_ads: true
+			  });
+			</script>
 			<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 			<link rel=\"stylesheet\" href=\"bootstrap.min.css\">
 			<script>
