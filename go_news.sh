@@ -6,7 +6,7 @@
 #  - Generates HTML
 
 echo "Doing everything"
-cd /home/pi/newnewsthing/
+cd /home/pi/newsthing/
 
 rm lixo/*
 rm feed/*
